@@ -1,0 +1,41 @@
+/* Header */
+.header{
+	padding-top: 30px;
+	width: 100%;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+.header.fixed {
+	padding: 10px 0;
+
+	background-color: #333;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	transform: translate3d(0, 0, 0);
+}
+.header.active {
+	background-color: #006A55;
+}
+.header_logo{
+	font-size:30px;
+	font-weight: 700;
+	color:#fff;
+	cursor: pointer;
+	overflow: hidden;
+}
+.header_logo:hover{
+	color:#FF6400;
+}
+.header_inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}

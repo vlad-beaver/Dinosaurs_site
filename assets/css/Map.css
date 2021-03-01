@@ -1,0 +1,38 @@
+/* Map */
+.map {
+	position: relative;
+	text-align: center;
+}
+.map_svgimg {
+	width: 100%;
+}
+.map_img {
+	width: 100%;
+	display:none;
+}
+svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+.part {
+	opacity: .1;
+}
+.part:hover {
+	transition: opacity .2s ease;
+	opacity: .5;
+}
+.description {
+	background-color: #006A55;
+	text-align: left;
+	display: none;
+	position: absolute;
+	padding: 10px;
+	box-sizing: border-box;
+	width: 450px;
+	height: 200px;
+	right: 30px;
+	bottom: calc(50% - 300px);
+}

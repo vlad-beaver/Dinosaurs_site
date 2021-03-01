@@ -1,0 +1,53 @@
+/* Subscribe */
+.subscribe {
+	width: 100%;
+	max-width: 380px;
+	display: flex;
+}
+.subscribe_input {
+	width: 60%;
+	height: 40px;
+	padding: 12px;
+
+	background: #fff;
+	border: 1px solid #e7e7e7;
+	border-right: 0;
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	line-height: 1.1;
+	color: #333;
+	font-style: italic;
+	font-weight: 300;
+}
+.subscribe_input::placeholder {
+	color: #ccc;
+}
+.subscribe_input:focus {
+	outline: 0;
+	border-color: #1F7A68;
+}
+.subscribe_btn {
+	width: 40%;
+	height: 40px;
+	padding: 12px 10px;
+
+	background-color: #1F7A68;
+	border: 0;
+	cursor: pointer;
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 1.1;
+	font: weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+
+	transition: background .2s linear;
+}
+.subscribe_btn:hover {
+	background-color: #00A383;
+}
+.subscribe_btn:focus {
+	outline: 0;
+}

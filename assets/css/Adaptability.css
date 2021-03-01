@@ -1,0 +1,319 @@
+@media (max-width: 1230px) {
+
+	/* Intro */
+	.intro_suptitle {
+		font-size: 52px;
+	}
+	.intro_title {
+		font-size: 120px;
+	}
+
+	/* Vidy */
+	.vidy_text {
+		font-size: 15px;
+	}
+	.vidy_name{
+		font-size: 22px;
+	}
+
+
+	/* Map */
+	.part {
+		display: none;
+	}
+	.map_svgimg {
+		display: none;
+	}
+	.map_img {
+		display: block;
+	}
+	.description {
+	width: 250px;
+	height: 200px;
+	right: 110px;
+	bottom: calc(50% - 250px);
+	}
+
+}
+
+@media (max-width: 990px) {
+
+	/* Intro */
+	.intro_suptitle {
+		font-size: 32px;
+	}
+	.intro_title {
+		font-size: 80px;
+	}
+	.intro_title:after {
+		margin: 40px auto;
+	}
+	.btn {
+		font-size: 11px;
+	}
+
+	/* Vidy */
+	.vidy .slick-slider {
+		padding: 0 60px;
+	}
+	.vidy_text {
+		font-size: 15px;
+	}
+	.vidy_name{
+		font-size: 21px;
+	}
+	.vidy_photo {
+		width: 150px;
+		height: 150px;
+	}
+	.vidy_item{
+	padding-left: 175px;
+	}
+
+	/* Filter */
+	.filter_header {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.filter {
+		width: 100%;
+		max-width: 410px;
+		margin: 0 auto;
+	}
+	.button {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+
+	/* Map */
+	.description {
+	width: 200px;
+	height: 200px;
+	right: 150px;
+	bottom: calc(60% - 250px);
+	}
+
+	/* Footer */
+	.footer_col--first {
+		width: 100%;
+	}
+	.footer_col--second {
+		
+	}
+	.footer_col--third {
+		width: 50%;
+	}
+
+	/* Instagram */
+	.instagram {
+		justify-content: flex-start;
+	}
+	.instagram_item {
+		width: auto;
+	}
+
+
+}
+
+@media (max-width: 770px) {
+
+/* Header */
+	.header {
+		padding: 10px 0;
+	}
+	.header_logo{
+		font-size: 20px;
+	}
+
+	/* Section */
+	.section {
+		padding: 40px 0;
+	}
+
+/* Nav */
+	.nav{
+		display: none;
+		width: 100%;
+
+		position: absolute;
+		top: 100%;
+		left: 0;
+
+		background-color: #2D3133;
+	}
+	.nav.active {
+		display: block;
+	}
+	.nav_link {
+		display: block;
+		margin: 0;
+		padding: 8px 20px;
+	}
+	.nav-toggle {
+		display: block;
+	}
+
+	/* About */
+	.about {
+		margin-top: 40px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.about_item {
+		width: 100%;
+		max-width: 410px;
+		margin-bottom: 30px;
+	}
+	.about_item:last-child {
+		margin-bottom: 0;
+	}
+	.about_text {
+		font-size: 14px;
+	}
+
+	/* Vidy */
+	.vidy_photo {
+		position: static;
+		margin: 0 auto 20px;
+	}
+	.vidy_item {
+		padding-left: 0;
+	}
+	.vidy_text {
+		font-size: 15px;
+		margin-bottom: 0;
+	}
+	.vidy_name{
+		font-size: 19px;
+	}
+
+	/* Filter */
+	.filter_header {
+		display: none;
+	}
+	.adapt {
+	display: block;
+	}
+
+	/* Card */
+	.card {
+		justify-content: center;
+		margin: 0 auto;
+		min-width: 290px;
+		height: 300px;
+		margin-bottom: 30px;
+	}
+	.card_about_item {
+		width: 100%;
+	}
+	.card_about_item:last-child {
+		margin-bottom: 0;
+	}
+	.card_about_text{
+		font-size: 12px;
+		top: 10%;
+}
+
+	/* Map */
+	.part {
+		display: none;
+	}
+	.map_svgimg {
+		display: none;
+	}
+	.map_img {
+		display: block;
+	}
+
+	/* Footer */
+	.footer_col--first {
+		width: 100%;
+	}
+	.footer_col--second {
+		width: 100%;
+	}
+	.footer_col--third {
+		width: 100%;
+	}
+
+
+}
+
+@media (max-width: 575px) {
+
+	/* Intro */
+	.intro {
+		min-height: 667px;
+	}
+	.intro_suptitle {
+		font-size: 22px;
+	}
+	.intro_title {
+		font-size: 40px;
+	}
+	.intro_title:after {
+		margin: 20px auto;
+	}
+	.btn {
+		font-size: 8px;
+	}
+	.video_media {
+		display: none;
+	}
+
+	/* Section */
+	.section_suptitle {
+		font-size: 20px;
+	}
+	.section_title {
+		font-size: 24px;
+	}
+	.section_title:after {
+		margin: 20px auto;
+	}
+
+	/* Vidy */
+	.vidy .slick-slider{
+		padding: 0;
+	}
+	.slick-arrow {
+		top: 15%;
+	}
+	/* Sort */
+	.adapt {
+		display: none;
+	}
+
+	/* ERA */
+	.text {
+	font-size: 14px;
+	}
+	.time-icon {
+		display: none;
+	}
+
+	/* Blogs */
+	.blogs img {
+		width: 80px;
+		height: 50px;
+	}
+	.blogs_title {
+		font-size: 10px;
+	}
+
+	/* Subscribe */
+	.subscribe {
+		flex-wrap: wrap;
+		max-width: none;
+	}
+	.subscribe_input {
+		margin-bottom: 10px;
+		border-right: 1px solid #e7e7e7;
+	}
+	.subscribe_input,
+	.subscribe_btn {
+		width: 100%;
+	}
+
+}
